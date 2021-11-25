@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <style>
+    section, div, img, a{
+      margin: 5px;
+    }
+    .container{
+      padding: 0px 10%;
+      max-width: 100%;
+     }
+
+section{
+  background-image:url("data:image/jpeg;base64,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")
+}
+  </style>
+  <meta charset="utf-8">
+  <title></title>
+ 
+</head>
+<body>
+
+<section class="bg-white rounded sticky top-0  flex items-center justify-center "> 
+  <div class=" bg-white hover:bg-pink-800 m-0 h-16  w-screen">
+    <marquee behavior="alternate">
+    <h1 class=" mt-4 text-black hover:text-white text-center font-sans text-2xl ">UNE ROUTINE MAKEUP AVEC MES PRODUITS PRÉFÉRÉS </h1>
+    </marquee>
+  </div>
+</section>
+
+<section class="container bg-red-200 rounded">
+  <div class=" purple rounded-full">
+      <h2 class="font-sans rounded-full bg-pink-200 text-center hover:bg-pink-400 text-black hover:text-white">Le Teint</h2>
+    </div>
+
+  <div class=" ">
+    
+    
+    <div class="flex rounded bg-pink-400 hover:bg-pink-800 ">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwac19cfba/images/hi-res/SKU/SKU_5/388041_swatch.jpg"> </img> 
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="animate-pulse font-bold font-sans hover:text-pink-400 hover:" href="https://www.sephora.fr/p/beauty-amplifier-base-lissante---base-de-teint-388041.html#product-info">La base</a>
+      <p class="font-sans">Sa texture gel translucide lisse le grain de peau, matifie le teint et fixe le maquillage. Le teint est sublimé et la tenue du maquillage prolongée</p>
+    </div>
+      
+  </div>
+  
+ 
+   <div class="flex rounded bg-pink-400 hover:bg-pink-800 ">
+     <div class="blue bg-pink-200  p-2 ">
+      <a class="animate-pulse  font-bold font-sans hover:text-pink-400"href= "https://www.sephora.fr/p/fond-de-teint-perfection-eclat---glow-perfection-foundation-P3185178.html">Le fond de teint</a>
+      <p class="font-sans"> Sa couvrance modulable permet un fini naturel tout en floutant les imperfections. Le teint est frais et lumineux</p>
+    </div>
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwf9729cc3/images/hi-res/SKU/SKU_5/388046_swatch.jpg"> </img> 
+    
+  </div>
+ 
+   <div class="flex rounded bg-pink-400 hover:bg-pink-800 ">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw27b80dd4/images/hi-res/SKU/SKU_2013/502360_swatch.jpg?sw=585&sh=585&sm=fit"> </img> 
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class=" animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/best-skin-ever-anticernes---anticernes-haute-couvrance-fini-naturel-P10013200.html">L'anticerne</a>
+      <p class="font-sans">Du matin jusqu'au soir, le regard est plus frais, comme reposé. Cet anticernes soin,  hydrate la peau pendant 12 heures et agit comme un bouclier contre les agressions extérieures (pollution…).</p>
+    </div>
+      
+  </div>
+
+   <div class="flex rounded bg-pink-400 hover:bg-pink-800">
+     <div class="blue bg-pink-200 p-2 ">
+      <a class=" animate-pulse  font-bold font-sans hover:text-pink-400" href="https://www.sephora.fr/p/poudre-compacte-matifiante-8h-P1038008.html">La poudre</a>
+      <p class="font-sans">Pour que chacune trouve celle qui lui correspond, SEPHORA COLLECTION propose sa poudre compacte matifiante en 8 teintes, de la plus claire à la plus foncée, pour matifier aussi bien les peaux mates que les teints diaphanes.</p>
+    </div>
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwb803c679/images/hi-res/SKU/SKU_2/243280_swatch.jpg"> </img> 
+    
+  </div>
+
+  <div class="flex rounded bg-pink-400 hover:bg-pink-800">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/dw/image/v2/BCVW_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw27d862d1/images/hi-res/SKU/SKU_453/453634_swatch.jpg?sw=585&sh=585&sm=fit"> </img> 
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="animate-pulse   font-bold font-sans hover:text-pink-400" href="https://www.sephora.fr/p/poudre-illuminatrice-visage---highlighter-P3185179.html">L'highlighter</a>
+      <p class="font-sans">Déclinée en 2 teintes, elle s'adapte à différentes carnations. Sa texture imperceptible et incroyablement soyeuse dépose un voile de nacres ultra fines qui reflètent la lumière et révèlent votre éclat !</p>
+    </div>
+      
+  </div>
+</div>
+</section>
+
+<section class="container bg-red-200 rounded">
+  <div class="purple rounded-fullhover:bg-pink-800 ">
+      <h2 class="font-sans rounded-full bg-pink-200 text-center hover:bg-pink-400 text-black hover:text-white">Les Yeux</h2>
+    </div>
+  
+  <div class="">
+  <div class="flex rounded bg-pink-400 hover:bg-pink-800   ">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw8b22fa79/images/hi-res/SKU/SKU_1599/450457_swatch.jpg"> </img> 
+    
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/crayon-sourcils-retractable---retractable-brow-pencil-P4144086.html">Le crayon à sourcils</a>
+      <p class="font-sans">Sourcils étoffés, bien dessinés, qui viennent encadrer votre regard pour lui donner de la profondeur : à vous les sourcils impeccables en toute circonstance grâce à ce crayon double embout !</p>
+    </div>
+  </div>
+  
+
+  
+      <div class=" flex rounded bg-pink-400 hover:bg-pink-800 flex">
+      
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/cinnamon-swirl---palette-fards-a-paupieres-edition-limitee-565842.html">La palette</a>
+      
+      <p class="font-sans">Votre en-cas sucré favori des centres commerciaux s'est transformé en une collection de fards à paupières Cinnamon Swirl incontournable !
+</p>
+        </div>
+        
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwa15ead0f/images/hi-res/SKU/SKU_2627/565842_swatch.jpg"> </img> 
+   
+  
+</div>
+
+  
+  
+</div>
+
+ <div class="yellow">
+  <div class="flex rounded bg-pink-400 hover:bg-pink-800   ">
+      <img class="h-32 w-32 " src=" https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dwb3fdf9e8/images/hi-res/SKU/SKU_2487/558432_swatch.jpg"> </img> 
+   
+    <div class="blue bg-white p-2 bg-pink-200">
+      
+      <a class="animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/climax---eyeliner-liquide-558432.html">L'eyeliner</a>
+      
+      <p class="font-sans">Sourcils étoffés, bien dessinés, qui viennent encadrer votre regard pour lui donner de la profondeur : à vous les sourcils impeccables en toute circonstance grâce à ce crayon double embout !</p>
+    </div>
+  </div>
+      <div class=" flex rounded bg-pink-400 hover:bg-pink-800 ">
+      
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/size-up---mascara-volume-extra-large-immediat-441757.html">Le mascara</a>
+      <p class="font-sans">Un mascara qui offre un volume extra large immédiat couplé à un effet allongeant et recourbant, pour des cils surdimensionnés dès le premier passage.</p>
+        </div>
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw09f8a57c/images/hi-res/SKU/SKU_1146/441757_swatch.jpg"> </img> 
+   
+  
+  </div>
+</div>
+</section>
+
+<section class="container bg-red-200 rounded">
+  <div class="purple rounded-full hover:bg-pink-800 ">
+      <h2 class="font-sans rounded-full bg-pink-200 text-center hover:bg-pink-400 text-black hover:text-white">Les Lèvres</h2>
+    </div>
+  
+  <div class="">
+  <div class="flex rounded bg-pink-400 hover:bg-pink-800  ">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw2a7f27da/images/hi-res/SKU/SKU_2/243322_swatch.jpg"> </img>
+    
+    <div class="blue bg-white p-2 bg-pink-200 ">
+      
+      <a class="animate-pulse font-bold  font-sans hover:text-pink-400" href="https://www.sephora.fr/p/crayon-levres-terrybly---crayon-contour-des-levres-243322.html">Le crayon à lèvres</a>
+      
+      <p class="font-sans">Une texture gloss unique et longue tenue pour une bouche pulpeuse, gorgée de brillance, de couleur et d'hydratation.
+</p>
+    </div>
+  </div>
+    
+  
+  
+      <div class=" flex rounded bg-pink-400 hover:bg-pink-800 ">
+      
+    <div class="blue bg-white p-2 bg-pink-200">
+      <a class="font-sans animate-pulse font-bold hover:text-pink-400" href="https://www.sephora.fr/p/rouge-dior---rossetto-535406.html">Le rouge à lèvres</a>
+      <p class=" font-sans">Rouge Dior est le rouge à lèvres iconique de Dior. Longue tenue, il préserve l'hydratation de vos lèvres et leur assure 16 h* de confort.
+</p>
+        </div> 
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw58556e83/images/hi-res/SKU/SKU_2013/535406_swatch.jpg"> </img> 
+   
+  
+  
+</div>
+  
+  
+  
+  <div class="flex rounded bg-pink-400   ">
+      <img class="h-32 w-32 " src="https://www.sephora.fr/on/demandware.static/-/Sites-masterCatalog_Sephora/default/dw8757e2f6/images/hi-res/SKU/SKU_1247/479737_swatch.jpg"> </img> 
+    <div class="blue bg-white p-2 bg-pink-200 ">
+      <a class="animate-pulse font-bold font-sans hover:text-pink-400" href="https://www.sephora.fr/p/glossed---gloss-a-levres-P4028084.html">Le gloss</a>
+      <p class="font-sans">Une texture gloss unique et longue tenue pour une bouche pulpeuse, gorgée de brillance, de couleur et d'hydratation.
+</p>
+    </div>
+  </div>
+  
+</div>
+</section>
+
+<section class="container bg-red-200 rounded">
+  <div class="bg-pink-400 rounded hover:bg-pink-800 flex">
+    <div class="bg-pink-200 ">
+  <h2 class="font-sans   ">Voici une vidéo de Andrea Renée dans laquelle elle se maquille qu'avec des produits de la marque Sephora
+      &rarr;</h2>
+    </div>
+    
+      <iframe class="w-96" src="https://www.youtube.com/embed/8E7lu9uMG5w"> </iframe>
+    
+    
+    </div>
+  </div>
+</section>
+</body>
+</html>
